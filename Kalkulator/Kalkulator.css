@@ -1,0 +1,104 @@
+.contents {
+    margin: auto;
+    margin-top: 15vh;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #5A5A5A;
+}
+
+.header {
+    padding-left: 5%;
+    margin: 10px 0;
+    color: whitesmoke;
+}
+
+.input-area {
+    width: 90%;
+    padding: 5px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    font-size: 150%;
+    background-color: lightgrey;
+}
+
+.Calc {
+    border-radius: 10px;
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+    padding: 0;
+    text-align: end;
+    height: 70px;
+    color: black;
+}
+
+.result {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: auto 20px;
+    text-align: end;
+    font-size: 150%;
+    background-color: lightgray;
+    color: black;
+}
+
+.tombol-area {
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgrey;
+    height: 250px;
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 200%;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.tombol-operator {
+    width: 45%;
+    display: flex;
+
+}
+
+.tombol-angka {
+    width: 45%;
+    display: flex;
+}
+
+.tombol {
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 3.5%;
+    color: black;
+    background-color: whitesmoke;
+}
+
+.tombol:hover {
+    background-color: lightblack;
+}
+
+.tombol-angka .tombol {
+    width: 90%;
+    height: calc(90%/4);
+    border: 1px solid black;
+    line-height: 200%;
+}
+
+.tombol-operator .tombol {
+    width: 90%;
+    height: calc(90%/3);
+    border: 1px solid black;
+    line-height: 225%;
+}

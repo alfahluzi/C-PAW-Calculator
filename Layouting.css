@@ -3,29 +3,35 @@
     padding: 0px;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
+a {
+    text-decoration: none;
+    color: black;
 }
 
-.header{
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.header {
     background-color: maroon;
     color: #fff;
     height: 90px;
 }
 
-.header-logo{
+.header-logo {
     float: left;
     font-size: 36px;
     padding: 20px 40px;
 }
 
-.header-nav li{
+.header-nav li {
     float: right;
     list-style: none;
     padding: 30px 30px;
 }
 
-.footer{
+.footer {
     margin-top: 10px;
     background-color: maroon;
     color: #fff;
@@ -33,33 +39,33 @@ body{
     padding: 40px;
 }
 
-.footer-logo{
+.footer-logo {
     float: left;
     font-size: 32px;
 }
 
-.footer-nav{
+.footer-nav {
     float: right;
     padding-bottom: 20px;
 }
 
-.footer-nav li{
+.footer-nav li {
     list-style: none;
 }
 
-.main{
+.main {
     border: 1px solid black;
     padding: 10px 80px 80px;
 }
 
-.contents{
+.contents {
     height: 430px;
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
 }
 
-.section-title{
+.section-title {
     border-bottom: 2px solid #dee7ec;
     font-size: 28px;
     padding-bottom: 15px;
@@ -67,6 +73,8 @@ body{
 }
 
 .contents-item {
+    height: fit-content;
+    padding-bottom: 20px;
     float: left;
     margin-right: 20px;
     text-align: center;
@@ -81,7 +89,8 @@ body{
     padding-top: 1px;
 }
 
-input, textarea{
+input,
+textarea {
     width: 400px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -90,7 +99,7 @@ input, textarea{
     border: 2px solid #dee7ec;
 }
 
-.contact-submit{
+.contact-submit {
     background-color: #dee7ec;
     color: #889eab;
 }
